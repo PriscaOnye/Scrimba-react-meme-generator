@@ -38,10 +38,13 @@ const Meme = () => {
                     onChange={handleChange}
                 />
 
-                <input 
+                <input
                     type="text"
                     placeholder="Bottom text"
                     className="form--input"
+                    name="bottomText"
+                    value={meme.bottomText}
+                    onChange={handleChange}
                 />
                 
                 <button 
