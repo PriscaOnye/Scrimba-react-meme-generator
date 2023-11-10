@@ -29,10 +29,13 @@ const Meme = () => {
 
         <main>
             <div className="form">
-                <input 
+                <input
                     type="text"
                     placeholder="Top text"
                     className="form--input"
+                    name="topText"
+                    value={meme.topText}
+                    onChange={handleChange}
                 />
 
                 <input 
