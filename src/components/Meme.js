@@ -47,10 +47,7 @@ const Meme = () => {
                     onChange={handleChange}
                 />
                 
-                <button 
-                    className="form--button"
-                    onClick={getMemeImage}
-                >
+                <button className="form--button" onClick={getMemeImage}>
                     Get a new meme image 🖼
                 </button>
             </div>
