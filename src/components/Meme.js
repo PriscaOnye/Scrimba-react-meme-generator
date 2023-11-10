@@ -9,7 +9,7 @@ const Meme = () => {
         topText: "",
         bottomText: "",
         randomImage: "http://i.imgflip.com/1bij.jpg"
-    }) 
+    })
 
 
     function getMemeImage() {
