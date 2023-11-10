@@ -49,10 +49,11 @@ const Meme = () => {
                 </button>
             </div>
 
-            <img src={meme.randomImage} 
-                alt="meme" 
-                className='meme_image'
-            />
+            <div className="meme">
+              <img src={meme.randomImage} alt="meme" className="meme_image" />
+              <h2 className="meme--text top">{meme.topText}</h2>
+              <h2 className="meme--text bottom">{meme.bottomText}</h2>
+            </div>
         </main>
     )
 }
